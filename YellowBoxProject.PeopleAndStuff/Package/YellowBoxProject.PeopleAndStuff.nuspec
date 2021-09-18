@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>YellowBoxProject.PeopleAndStuff</id>
+    <version>1.0.0</version>
+    <authors>YellowBoxProject</authors>
+    <owners>YellowBoxProject</owners>
+    <title>PeopleAndStuff</title>
+    <description>PeopleAndStuff</description>
+    <copyright>YellowBoxProject</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/oqtane/oqtane.framework</projectUrl>
+    <icon>icon.png</icon>
+    <tags>oqtane module</tags>
+    <releaseNotes></releaseNotes>
+    <summary></summary>
+    <dependencies>
+      <dependency id="Oqtane.Framework" version="2.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\Client\bin\Release\net5.0\YellowBoxProject.PeopleAndStuff.Client.Oqtane.dll" target="lib\net5.0" /> 
+    <file src="..\Client\bin\Release\net5.0\YellowBoxProject.PeopleAndStuff.Client.Oqtane.pdb" target="lib\net5.0" /> 
+    <file src="..\Server\bin\Release\net5.0\YellowBoxProject.PeopleAndStuff.Server.Oqtane.dll" target="lib\net5.0" /> 
+    <file src="..\Server\bin\Release\net5.0\YellowBoxProject.PeopleAndStuff.Server.Oqtane.pdb" target="lib\net5.0" /> 
+    <file src="..\Shared\bin\Release\net5.0\YellowBoxProject.PeopleAndStuff.Shared.Oqtane.dll" target="lib\net5.0" /> 
+    <file src="..\Shared\bin\Release\net5.0\YellowBoxProject.PeopleAndStuff.Shared.Oqtane.pdb" target="lib\net5.0" /> 
+    <file src="..\Server\wwwroot\**\*.*" target="wwwroot" /> 
+    <file src="icon.png" target="" />
+  </files>
+</package>

@@ -12,10 +12,16 @@ namespace YellowBoxProject.PeopleAndStuff.Models
         public int PeopleAndStuffId { get; set; }
         public int ModuleId { get; set; }
         public string Name { get; set; }
+       // public PeopleOrStuff PeopleOrStuff { get; set; } = PeopleOrStuff.Stuff;
 
         public string CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
         public string ModifiedBy { get; set; }
         public DateTime ModifiedOn { get; set; }
+    }
+
+    public enum PeopleOrStuff
+    {
+        People, Stuff
     }
 }

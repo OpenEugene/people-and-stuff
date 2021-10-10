@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oqtane.Server", "oqtane.framework\Oqtane.Server\Oqtane.Server.csproj", "{8C4DAE63-8A80-4753-A0DE-F9972D27AB08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowBoxProject.PeopleAndStuff.Client", "YellowBoxProject.PeopleAndStuff\Client\YellowBoxProject.PeopleAndStuff.Client.csproj", "{5FFD498C-CC8E-46A7-AAE6-89A98E6197DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0A08EE6-DE29-4E07-A748-612A197CD120}"
+	ProjectSection(SolutionItems) = preProject
+		.gitmodules = .gitmodules
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowBoxProject.PeopleAndStuff.Package", "YellowBoxProject.PeopleAndStuff\Package\YellowBoxProject.PeopleAndStuff.Package.csproj", "{37041F89-F1BB-4CA2-B2A1-612580383E88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowBoxProject.PeopleAndStuff.Server", "YellowBoxProject.PeopleAndStuff\Server\YellowBoxProject.PeopleAndStuff.Server.csproj", "{EA4F16A1-6B29-40AA-A126-24150ECDE5E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YellowBoxProject.PeopleAndStuff.Shared", "YellowBoxProject.PeopleAndStuff\Shared\YellowBoxProject.PeopleAndStuff.Shared.csproj", "{29060C10-EF63-482A-8F73-344528B90289}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oqtane.Shared", "oqtane.framework\Oqtane.Shared\Oqtane.Shared.csproj", "{7CF39D1D-F623-48E9-AF47-615973DF9507}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oqtane.Client", "oqtane.framework\Oqtane.Client\Oqtane.Client.csproj", "{217869EA-1C91-4B22-971C-2B47B1565BC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C4DAE63-8A80-4753-A0DE-F9972D27AB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4DAE63-8A80-4753-A0DE-F9972D27AB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4DAE63-8A80-4753-A0DE-F9972D27AB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4DAE63-8A80-4753-A0DE-F9972D27AB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFD498C-CC8E-46A7-AAE6-89A98E6197DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFD498C-CC8E-46A7-AAE6-89A98E6197DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFD498C-CC8E-46A7-AAE6-89A98E6197DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFD498C-CC8E-46A7-AAE6-89A98E6197DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37041F89-F1BB-4CA2-B2A1-612580383E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37041F89-F1BB-4CA2-B2A1-612580383E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37041F89-F1BB-4CA2-B2A1-612580383E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37041F89-F1BB-4CA2-B2A1-612580383E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4F16A1-6B29-40AA-A126-24150ECDE5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4F16A1-6B29-40AA-A126-24150ECDE5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4F16A1-6B29-40AA-A126-24150ECDE5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4F16A1-6B29-40AA-A126-24150ECDE5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29060C10-EF63-482A-8F73-344528B90289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29060C10-EF63-482A-8F73-344528B90289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29060C10-EF63-482A-8F73-344528B90289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29060C10-EF63-482A-8F73-344528B90289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF39D1D-F623-48E9-AF47-615973DF9507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF39D1D-F623-48E9-AF47-615973DF9507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF39D1D-F623-48E9-AF47-615973DF9507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF39D1D-F623-48E9-AF47-615973DF9507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217869EA-1C91-4B22-971C-2B47B1565BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217869EA-1C91-4B22-971C-2B47B1565BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217869EA-1C91-4B22-971C-2B47B1565BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217869EA-1C91-4B22-971C-2B47B1565BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F73C5877-EC9A-4FB0-B6AA-025516F4EF6A}
+	EndGlobalSection
+EndGlobal
